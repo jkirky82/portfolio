@@ -2,15 +2,19 @@
     display: flex;
     justify-content: center;
     background-color: #333;
-    
-}
-.flex-container a{
+  a{
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+  }
+  a:hover{
+    background-color: green;
+    
+  }
 }
+
 @media only screen and (min-width: 600px) {
     /*larger than 601px - 768px*/
       /* For tablets: */
