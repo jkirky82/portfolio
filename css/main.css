@@ -26,7 +26,7 @@
   flex-wrap: wrap;
 }
 
-.title {
+h1 {
   text-align: center;
   margin: 20px;
 }
@@ -34,11 +34,30 @@
 #profile p {
   margin: 20px;
   text-align: center;
-  font-size: 14;
+  font-size: 16px;
   line-height: 1.7;
 }
 #profile img {
   width: 100%;
+}
+
+#projects {
+  margin: 20px;
+}
+
+.image-container {
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.image-container img {
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+}
+.image-container p {
+  font-size: 14px;
 }
 
 [class*=col-] {

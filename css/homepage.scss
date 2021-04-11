@@ -10,7 +10,7 @@
     justify-content:space-evenly;
     flex-wrap: wrap;
 }
-.title{
+h1{
     text-align: center;
     margin: 20px;
 }
@@ -19,13 +19,33 @@
     p{
     margin: 20px;
     text-align: center;
-    font-size: 14;
+    font-size: 16px;
     line-height: 1.7;
     }
     img{
         width: 100%;
     }
 }
+#projects{
+    margin: 20px;
+}
+
+.image-container{
+    background-color: green;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    img{
+        margin: 10px;
+        width: 100px; 
+        height:100px;
+    }
+    p{
+        font-size: 14px;
+    }
+}
+
+
 
 [class*="col-"] {
     width: 100%;
