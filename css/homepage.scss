@@ -1,4 +1,5 @@
 @import "parcials/navbar.scss"; 
+@import "parcials/footer.scss"; 
 *{
     box-sizing: border-box;
     margin:0;
@@ -17,7 +18,7 @@ h1{
 
 #profile{
     p{
-    margin: 20px;
+    margin: 10px;
     text-align: center;
     font-size: 16px;
     line-height: 1.7;
@@ -26,25 +27,36 @@ h1{
         width: 100%;
     }
 }
-#projects{
-    margin: 20px;
-}
 
+#projects{
+    margin: 20px 0px 70px 0px;
+}
+.project-text{
+    margin: 20px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.7;
+}
 .image-container{
-    background-color: green;
-    display: flex;
-    justify-content:center;
-    flex-wrap: wrap;
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    
     img{
-        margin: 10px;
-        width: 100px; 
-        height:100px;
+        width: 200px; 
+        height:150px;
     }
     p{
         font-size: 14px;
     }
 }
-
+#accounts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
 
 
 [class*="col-"] {
@@ -66,6 +78,34 @@ h1{
       .col-s-10 {width: 83.33%;}
       .col-s-11 {width: 91.66%;}
       .col-s-12 {width: 100%;}
+      h1{
+          font-size: 40px;
+      }
+      #profile, .project-text{
+          p{
+              font-size: 20px;
+          }
+      }
+      .image-container{
+          
+          p{
+              font-size: 18px;
+          }
+          ul{
+              display: flex;
+              flex-direction:row;
+              justify-content: space-between;
+              padding: 20px;
+          }
+      }
+      .github, .LinkedIn{
+          h3, a{
+            display: flex;
+            flex-direction:row;
+            justify-content: space-between;
+            padding: 20px;
+          }        
+      }
     } 
     @media only screen and (min-width: 769px) {
     /*anything beyoud 769px*/
