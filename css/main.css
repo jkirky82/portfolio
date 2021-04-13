@@ -63,7 +63,7 @@ h1 {
   line-height: 1.7;
 }
 
-.image-container {
+.image-container ul {
   list-style-type: none;
   display: flex;
   flex-direction: column;

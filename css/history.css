@@ -1,0 +1,34 @@
+.flex-container {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+}
+.flex-container a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.flex-container a:hover {
+  background-color: green;
+}
+
+#copyright {
+  text-align: center;
+  font-size: 12px;
+  opacity: 70%;
+  margin-top: 10px;
+}
+
+footer {
+  margin-top: 30px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=history.css.map */
