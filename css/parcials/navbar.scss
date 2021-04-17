@@ -1,7 +1,12 @@
+@import"colors.scss";
+
 .flex-container{
     display: flex;
     justify-content: center;
-    background-color: #333;
+    background-color: $primary-color;
+    position: fixed;
+    top:0;
+    width:100%;
   a{
     display: block;
     color: white;
@@ -10,7 +15,31 @@
     text-decoration: none;
   }
   a:hover{
-    background-color: green;
-    
+    background-color: $secondary-color;
   }
 }
+body {
+  section{
+    margin-top: 60px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  /*larger than 601px - 768px*/
+    /* For tablets: */
+    .flex-container{
+      p{
+        font-size: 22px;
+      }
+    }
+  } 
+  @media only screen and (min-width: 769px) {
+  /*anything beyoud 769px*/
+    /* For desktop: */
+    .flex-container{
+      p{
+        padding-right: 20px;
+        font-size: 30px;
+      }
+    }
+  }

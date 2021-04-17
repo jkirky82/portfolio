@@ -1,7 +1,10 @@
 .flex-container {
   display: flex;
   justify-content: center;
-  background-color: #333;
+  background-color: #4CDEF5;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 .flex-container a {
   display: block;
@@ -11,26 +14,59 @@
   text-decoration: none;
 }
 .flex-container a:hover {
-  background-color: green;
+  background-color: #A4D555;
 }
 
+body section {
+  margin-top: 60px;
+}
+
+@media only screen and (min-width: 600px) {
+  /*larger than 601px - 768px*/
+  /* For tablets: */
+  .flex-container p {
+    font-size: 22px;
+  }
+}
+@media only screen and (min-width: 769px) {
+  /*anything beyoud 769px*/
+  /* For desktop: */
+  .flex-container p {
+    padding-right: 20px;
+    font-size: 30px;
+  }
+}
 #copyright {
-  text-align: center;
-  font-size: 12px;
-  opacity: 70%;
-  margin-top: 10px;
+  font-size: 10px;
+  padding-top: 20px;
+  text-align: left;
 }
 
-footer {
-  margin-top: 30px;
+.contact {
+  padding-left: 10px;
+  padding-top: 20px;
+  height: 150px;
+  margin-top: 20px;
+  text-align: left;
+  font-size: 16px;
+  background: linear-gradient(to right, #4CDEF5 70%, #A4D555 30%);
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
+@media only screen and (min-width: 600px) {
+  /*larger than 601px - 768px*/
+  /* For tablets: */
+  .links {
+    text-align: center;
+  }
 }
-
+@media only screen and (min-width: 769px) {
+  /*anything beyoud 769px*/
+  /* For desktop: */
+}
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 input[type=text], select, textarea {
@@ -44,6 +80,15 @@ input[type=text], select, textarea {
   resize: vertical;
 }
 
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
 input[type=submit]:hover {
   background-color: #45a049;
 }
@@ -51,12 +96,18 @@ input[type=submit]:hover {
 .container {
   border-radius: 5px;
   background-color: #f2f2f2;
-  margin-bottom: 70px;
-  text-align: center;
+  padding: 20px;
 }
 
-h3 {
+.title {
   text-align: center;
+  margin: 20px;
+  font-size: 30px;
+}
+
+.form-text {
+  font-size: 20px;
+  padding: 0 10px;
 }
 
 @media only screen and (min-width: 600px) {
@@ -110,9 +161,14 @@ h3 {
     width: 100%;
   }
 
-  .container {
-    text-align: left;
-    font-size: 20px;
+  .title {
+    margin-top: 80px;
+    font-size: 5vw;
+  }
+
+  .form-text {
+    text-align: center;
+    font-size: 2.7vw;
   }
 }
 @media only screen and (min-width: 769px) {
@@ -164,11 +220,6 @@ h3 {
 
   .col-12 {
     width: 100%;
-  }
-
-  .container {
-    text-align: left;
-    font-size: 20px;
   }
 }
 
