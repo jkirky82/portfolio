@@ -1,5 +1,6 @@
 @import "parcials/navbar.scss"; 
 @import "parcials/footer.scss"; 
+@import "parcials/font-styles";
 *{
     box-sizing: border-box;
     margin:0;
@@ -7,9 +8,7 @@
 }
 
 .title{
-    margin-top: 60px;
-    text-align: center;
-    font-size: 30px;
+    @extend %title-style
 }
 h2{
     text-align: center;

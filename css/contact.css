@@ -63,6 +63,12 @@ body section {
   /*anything beyoud 769px*/
   /* For desktop: */
 }
+.title {
+  margin-top: 60px;
+  text-align: center;
+  font-size: 30px;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -97,12 +103,6 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
-}
-
-.title {
-  text-align: center;
-  margin: 60px;
-  font-size: 30px;
 }
 
 .form-text {
