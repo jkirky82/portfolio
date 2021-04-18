@@ -1,0 +1,151 @@
+.flex-container {
+  display: flex;
+  justify-content: center;
+  background-color: #4CDEF5;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.flex-container a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.flex-container a:hover {
+  background-color: #A4D555;
+}
+
+body section {
+  margin-top: 60px;
+}
+
+@media only screen and (min-width: 600px) {
+  /*larger than 601px - 768px*/
+  /* For tablets: */
+  .flex-container p {
+    font-size: 22px;
+  }
+}
+@media only screen and (min-width: 769px) {
+  /*anything beyoud 769px*/
+  /* For desktop: */
+  .flex-container p {
+    padding-right: 20px;
+    font-size: 30px;
+  }
+}
+#copyright {
+  font-size: 10px;
+  padding-top: 20px;
+  text-align: left;
+}
+
+.contact {
+  padding-left: 10px;
+  padding-top: 20px;
+  height: 150px;
+  margin-top: 20px;
+  text-align: left;
+  font-size: 16px;
+  background: linear-gradient(to right, #4CDEF5 70%, #A4D555 30%);
+}
+
+@media only screen and (min-width: 600px) {
+  /*larger than 601px - 768px*/
+  /* For tablets: */
+  .links {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 769px) {
+  /*anything beyoud 769px*/
+  /* For desktop: */
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.head {
+  margin-top: 80px;
+}
+.head h1 {
+  text-align: center;
+}
+.head a {
+  text-decoration: none;
+}
+.head p {
+  padding-left: 30px;
+  font-size: 11px;
+}
+
+.list {
+  margin: 10px;
+  padding: 0px 20px;
+  text-align: center;
+}
+.list ol {
+  list-style-position: inside;
+}
+.list div {
+  margin-bottom: 30px;
+}
+.list h2 {
+  font-size: 5vw;
+}
+.list p {
+  margin: 10px;
+}
+.list ::marker {
+  font-size: 1.4em;
+}
+
+@media only screen and (min-width: 600px) {
+  /*larger than 601px - 768px*/
+  /* For tablets: */
+  .head {
+    margin-top: 80px;
+  }
+  .head h1 {
+    text-align: center;
+    font-size: 5vw;
+  }
+  .head a {
+    text-decoration: none;
+  }
+  .head p {
+    padding-left: 70px;
+    font-size: 11px;
+  }
+
+  .list {
+    margin: 10px;
+    padding: 0px 90px;
+    text-align: center;
+  }
+  .list div {
+    margin-bottom: 30px;
+  }
+  .list ol {
+    list-style-position: unset;
+  }
+  .list h2 {
+    font-size: 5vw;
+  }
+  .list p {
+    margin: 10px;
+  }
+  .list ::marker {
+    font-size: 1.4em;
+  }
+}
+@media only screen and (min-width: 769px) {
+  /*anything beyoud 769px*/
+  /* For desktop: */
+}
+
+/*# sourceMappingURL=blog.css.map */
