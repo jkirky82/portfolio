@@ -70,7 +70,7 @@ body section {
 }
 
 .head {
-  margin-top: 80px;
+  margin-top: 60px;
 }
 .head h1 {
   text-align: center;
@@ -107,9 +107,6 @@ body section {
 @media only screen and (min-width: 600px) {
   /*larger than 601px - 768px*/
   /* For tablets: */
-  .head {
-    margin-top: 80px;
-  }
   .head h1 {
     text-align: center;
     font-size: 5vw;

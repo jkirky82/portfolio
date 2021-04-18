@@ -69,12 +69,6 @@ body section {
   padding: 0;
 }
 
-h1 {
-  text-align: center;
-  margin: 20px;
-  font-size: 30px;
-}
-
 .row {
   display: flex;
   justify-content: space-evenly;
@@ -97,7 +91,7 @@ h1 {
 }
 
 #projects {
-  margin: 20px 0px 70px 0px;
+  margin: 20px 0px 50px 0px;
 }
 
 .project-text {
@@ -181,10 +175,6 @@ h1 {
 
   .col-s-12 {
     width: 100%;
-  }
-
-  h1 {
-    font-size: 40px;
   }
 
   #profile p {
@@ -294,7 +284,7 @@ h1 {
     margin: 0 15%;
   }
   #profile p {
-    font-size: 1.3em;
+    font-size: 1.6vw;
   }
 
   .project-text {
@@ -308,6 +298,11 @@ h1 {
   .image-container h2 {
     font-size: 35px;
     justify-content: center;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  #profile p {
+    font-size: 1.3vw;
   }
 }
 
