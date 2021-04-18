@@ -9,6 +9,7 @@
 .title{
     margin-top: 70px;
     text-align: center;
+    font-size: 30px;
 }
 h2{
     text-align: center;
@@ -84,7 +85,7 @@ h2{
         .col-s-11 {width: 91.66%;}
         .col-s-12 {width: 100%;}
         .title{
-            font-size: 48px;
+            font-size: 5vw;
         }
         h2{
             font-size: 30px;
@@ -108,7 +109,6 @@ h2{
             }
         }
     }
-        
         @media only screen and (min-width: 769px) {
         /*anything beyoud 769px*/
         /* For desktop: */
