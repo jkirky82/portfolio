@@ -6,68 +6,65 @@
     margin:0;
     padding: 0;
 }
-
+@mixin flexbox($direction){
+    display: flex;
+    flex-direction: $direction;
+    align-items: center;
+}
 .title{
-    @extend %title-style
+    @include title-style;
 }
-h2{
-    text-align: center;
+.header{
+    @include header;
 }
-
 .uni{
     text-align: center;
     margin-bottom: 30px;
     margin-top: 30px;
-    img{
-        width: 20%;
-        margin: 10px;
-        float: left;
-    }
 }
-.accounts{
+.languages{
     text-align: center;
-    margin-bottom: 40px;
-    .github{
-        float: left;
-        width: 50%;
-        padding: 5px;
-    }
-    .LinkedIn{
-        float: left;
-        width: 50%;
-        padding: 5px;
+    p{
+        margin-bottom: 20px;
     }
 }
-.accounts::after {
-    content: "";
-    clear: both;
-    display: table;
+.languages-container{
+    @include flexbox(row);
+    justify-content: space-evenly;
+    
+    img{
+        width: 50px;
+        height: 50px;
+    }
+    .html{
+        img{
+            width: 70px;
+        }
+    }
 }
 
 .projects{
-    display: flex;
-    flex-direction: column ;
+    @include flexbox(column);
     margin: 0 10px;
     div{
         display: flex;
         border-style: solid;
-        border-width: 1px;
+        border-width: 2px;
         margin: 10px 0px;
         justify-content: center;
         align-items: center;
     }
     img{
-        width: 40%;
-        height: 40%;
+        width: 180px;
+        height: 150px;
+        padding:5px;
     }
     p{
         padding-left: 7px;
         font-size: 14px;
     }
 }
-[class*="col-"] {
-    width: 100%;
-  }
+
     @media only screen and (min-width: 600px) {
         /*larger than 601px - 768px*/
         /* For tablets: */
@@ -77,22 +74,13 @@ h2{
         h2{
             font-size: 30px;
         }
-        .accounts{
-            img{
-                width:60%;
-                height: 220px;
-            }
-            p{
-                font-size: 20px;
-                text-align: center;
-            }
-        }
         .projects{
             p{
-                font-size: 18px;
+                font-size: 20px;
             }
             img{
-                padding: 5px;
+                width: 250px;
+                height: 205px;
             }
         }
     }
@@ -104,49 +92,25 @@ h2{
         }
         .uni{
             p{
-                padding-right: 5%;
-                font-size: 1.6vw;
-                text-align: right;
-                float: right;
-                width:70%;
-                
+                font-size: 1.6vw;    
             }
-            img{
-                width: 20%;
-                margin: 10px;
-                float: left;
-            }
-        }
         h2{
             font-size: 30px;
-        }
-
-        .accounts{
-            clear: both;
-            img{
-                width:20%;
-            }
-            p{
-                font-size: 1.6vw;
-                text-align: center; 
-            }
         }
         .projects{
             align-items: center;
             div{
-                height: 80%;
-                width:70%;
-                margin-bottom: 70px;
+                width:90%;
+                margin-bottom: 50px;
             }
             p{
-                width:60%;
-                font-size: 1.4vw
-
+                width:80%;
+                font-size: 1.9vw
             }
             img{
-                padding: 5px;
-                width:50%;
-                height:100%;
+                width:280px;
+                height:200px;
             }
         }
-        }
+    }
+}

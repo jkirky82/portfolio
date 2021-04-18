@@ -1,18 +1,195 @@
-/* Error: The target selector was not found.
- * Use "@extend %title-style !optional" to avoid this error.
- *    ,
- * 11 |     @extend %title-style
- *    |     ^^^^^^^^^^^^^^^^^^^^
- *    '
- *   css/history.scss 11:5  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: The target selector was not found.\aUse "@extend %title-style !optional" to avoid this error.\a    \2577 \a 11 \2502      @extend %title-style\a    \2502      ^^^^^^^^^^^^^^^^^^^^\a    \2575 \a   css/history.scss 11:5  root stylesheet';
+.flex-container {
+  display: flex;
+  justify-content: center;
+  background-color: #A4D555;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
+.flex-container a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.flex-container a:hover {
+  background-color: #A4D555;
+}
+
+@media only screen and (min-width: 600px) {
+  /*larger than 601px - 768px*/
+  /* For tablets: */
+  .flex-container p {
+    font-size: 22px;
+  }
+}
+@media only screen and (min-width: 769px) {
+  /*anything beyoud 769px*/
+  /* For desktop: */
+  .flex-container p {
+    padding-right: 20px;
+    font-size: 30px;
+  }
+}
+#copyright {
+  font-size: 10px;
+  padding-top: 20px;
+  text-align: left;
+}
+
+.contact {
+  padding-left: 10px;
+  padding-top: 20px;
+  height: 150px;
+  margin-top: 20px;
+  text-align: left;
+  font-size: 16px;
+  background: linear-gradient(to right, #4CDEF5 70%, #A4D555 30%);
+}
+
+@media only screen and (min-width: 600px) {
+  /*larger than 601px - 768px*/
+  /* For tablets: */
+  .links {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 769px) {
+  /*anything beyoud 769px*/
+  /* For desktop: */
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  margin-top: 60px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 40px;
+  color: #4CDEF5;
+}
+
+.header {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 40px;
+  color: #4CDEF5;
+}
+
+.uni {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.languages {
+  text-align: center;
+}
+.languages p {
+  margin-bottom: 20px;
+}
+
+.languages-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.languages-container img {
+  width: 50px;
+  height: 50px;
+}
+.languages-container .html img {
+  width: 70px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+}
+.projects div {
+  display: flex;
+  border-style: solid;
+  border-width: 2px;
+  margin: 10px 0px;
+  justify-content: center;
+  align-items: center;
+}
+.projects img {
+  width: 180px;
+  height: 150px;
+  padding: 5px;
+}
+.projects p {
+  padding-left: 7px;
+  font-size: 14px;
+}
+
+@media only screen and (min-width: 600px) {
+  /*larger than 601px - 768px*/
+  /* For tablets: */
+  .title {
+    font-size: 5vw;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  .projects p {
+    font-size: 20px;
+  }
+  .projects img {
+    width: 250px;
+    height: 205px;
+  }
+}
+@media only screen and (min-width: 769px) {
+  /*anything beyoud 769px*/
+  /* For desktop: */
+  .title {
+    font-size: 5vw;
+  }
+
+  .uni p {
+    font-size: 1.6vw;
+  }
+  .uni h2 {
+    font-size: 30px;
+  }
+  .uni .accounts {
+    clear: both;
+  }
+  .uni .accounts img {
+    width: 20%;
+  }
+  .uni .accounts p {
+    font-size: 1.6vw;
+    text-align: center;
+  }
+
+  .projects {
+    align-items: center;
+  }
+  .projects div {
+    width: 90%;
+    margin-bottom: 50px;
+  }
+  .projects p {
+    width: 80%;
+    font-size: 1.9vw;
+  }
+  .projects img {
+    width: 280px;
+    height: 200px;
+  }
+}
+
+/*# sourceMappingURL=history.css.map */
