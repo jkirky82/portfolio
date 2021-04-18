@@ -6,12 +6,14 @@
     margin:0;
     padding: 0;
 }
-
-@mixin flexbox{
+/* Sets a flex box direction is set on include */
+@mixin flexbox($direction){
     display: flex;
-    flex-direction: column;
+    flex-direction: $direction;
     align-items: center;
 }
+
+/* Used styleing from _font-styles*/
 .title{
     @include title-style;
 }
@@ -20,10 +22,12 @@
 }
 
 .row {
-    @include flexbox;
+    @include flexbox(row);
     flex-wrap: wrap;
-    border: 3px solid #73AD21;
+    justify-content:space-evenly;
+    border: 3px solid #73AD21
 }
+
 #profile{
     p{
     margin: 10px;
@@ -33,37 +37,34 @@
     }
     img{
         text-align:center;
-        width:50%;
+        width:70%;
         display:block;
         margin:auto;
     } 
 }
 
 #projects{
-    margin: 20px 0px 50px 0px;
-}
-.project-text{
-    margin: 20px;
     text-align: center;
-    font-size: 16px;
-    line-height: 1.7;
-}
-.image-container{
-    ul{
-        @include flexbox;
-        list-style-type: none;
-        flex-wrap: wrap;
+    .project-text{
+        margin: 20px;
+        font-size: 16px;
+        line-height: 1.7;
     }
-    img{
-        width: 200px; 
-        height:150px;
-    }
-    p{
-        font-size: 14px;
+    .image-container{
+        ul{
+            @include flexbox(column);
+            list-style-type: none;
+            flex-wrap: wrap;
+        }
+        img{
+            width: 200px; 
+            height:150px;
+            margin-bottom: 20px;
+        }
     }
 }
 #accounts{
-   @include flexbox;
+   @include flexbox(column);
 }
 
 
@@ -74,42 +75,41 @@
   @media only screen and (min-width: 600px) {
     /*larger than 601px - 768px*/
       /* For tablets: */
-      .col-s-1 {width: 8.33%;}
-      .col-s-2 {width: 16.66%;}
-      .col-s-3 {width: 25%;}
-      .col-s-4 {width: 33.33%;}
-      .col-s-5 {width: 41.66%;}
-      .col-s-6 {width: 50%;}
-      .col-s-7 {width: 58.33%;}
-      .col-s-8 {width: 66.66%;}
-      .col-s-9 {width: 75%;}
-      .col-s-10 {width: 83.33%;}
-      .col-s-11 {width: 91.66%;}
-      .col-s-12 {width: 100%;}
-      #profile p{ font-size: 1.7em;}
-      #profile img {width: 40%; margin: 0 30%}
-      .title{font-size: 2.5em;}
+    #profile{
+        .col-img{
+            width:30%;
+        }
+        .col-text{
+            width: 60%;
+        }
+        img{
+            width: 60%;
+        }
+    }
+      #projects{
 
-      .project-text{
-          p{
-              font-size: 1.7em;
-          }
-      }
-      .image-container{
-          ul{
-              display: flex;
-              flex-direction:row;
-              justify-content: space-evenly;
-              flex-wrap: wrap;
-              margin: 50px;
-          }
-          img{
-              margin-right:20px;
-              margin-bottom: 20px;
-          }
-          h2{
-              font-size: 25px;
-          }
+        .project-text{
+                
+            font-size: 1.3em;
+        }
+
+        .image-container{
+            ul{
+                flex-direction:row;
+                justify-content: space-evenly;
+                flex-wrap: wrap;
+                margin: 50px;
+            }
+            img{
+                width: 400px;
+                height:350px;
+                margin-right:20px;
+                margin-bottom: 20px;
+            }
+            h2{
+                font-size: 30px;
+            }
+        }
       }
      
       #accounts{
@@ -136,40 +136,34 @@
     @media only screen and (min-width: 769px) {
     /*anything beyoud 769px*/
       /* For desktop: */
-      .col-1 {width: 8.33%;}
-      .col-2 {width: 16.66%;}
-      .col-3 {width: 25%;}
-      .col-4 {width: 33.33%;}
-      .col-5 {width: 41.66%;}
-      .col-6 {width: 50%;}
-      .col-7 {width: 58.33%;}
-      .col-8 {width: 66.66%;}
-      .col-9 {width: 75%;}
-      .col-10 {width: 83.33%;}
-      .col-11 {width: 91.66%;}
-      .col-12 {width: 100%;}
-      #profile {
-          img{
-            width: 50%; 
-            margin: 0 15%;
+      .col-img{
+          width: 33%;
+      }
+      .col-text {width: 50%;}
+
+        #profile {
+            img{
+                width: 70%;
             }
             p{
-                font-size: 1.6vw;
+                font-size: 1.3em;
+            }
+        }   
+
+
+
+        #project{
+            .project-text{
+                font-size: 1.3em;
+            }
+            .image-container{
+                h2{
+                    font-size: 35px;
+                    justify-content: center;
+                }
             }
         }
-        .project-text{
-            font-size: 1.3em;
-        }
-        .image-container{
-            img{
-                width:350px;
-                height:300px;
-            }
-            h2{
-                font-size: 35px;
-                justify-content: center;
-            }
-        }
+        
     }
     @media only screen and (min-width: 1440px){
         #profile{
