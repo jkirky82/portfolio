@@ -17,6 +17,10 @@
   background-color: #A4D555;
 }
 
+body section {
+  margin-top: 60px;
+}
+
 @media only screen and (min-width: 600px) {
   /*larger than 601px - 768px*/
   /* For tablets: */
@@ -65,30 +69,16 @@
   padding: 0;
 }
 
-/* Sets a flex box direction is set on include */
-/* Used styleing from _font-styles*/
-.title {
-  margin-top: 60px;
-  margin-bottom: 10px;
+h1 {
   text-align: center;
-  font-size: 40px;
-  color: #4CDEF5;
-}
-
-.header {
-  margin-top: 20px;
-  margin-bottom: 10px;
-  text-align: center;
-  font-size: 40px;
-  color: #4CDEF5;
+  margin: 20px;
 }
 
 .row {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  flex-wrap: wrap;
   justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
   border: 3px solid #73AD21;
 }
 
@@ -100,30 +90,35 @@
 }
 #profile img {
   text-align: center;
-  width: 70%;
+  width: 50%;
   display: block;
   margin: auto;
 }
 
 #projects {
-  text-align: center;
+  margin: 20px 0px 70px 0px;
 }
-#projects .project-text {
+
+.project-text {
   margin: 20px;
+  text-align: center;
   font-size: 16px;
   line-height: 1.7;
 }
-#projects .image-container ul {
+
+.image-container ul {
+  list-style-type: none;
   display: flex;
   flex-direction: column;
   align-items: center;
-  list-style-type: none;
   flex-wrap: wrap;
 }
-#projects .image-container img {
+.image-container img {
   width: 200px;
   height: 150px;
-  margin-bottom: 20px;
+}
+.image-container p {
+  font-size: 14px;
 }
 
 #accounts {
@@ -139,33 +134,88 @@
 @media only screen and (min-width: 600px) {
   /*larger than 601px - 768px*/
   /* For tablets: */
-  #profile .col-img {
-    width: 30%;
-  }
-  #profile .col-text {
-    width: 60%;
-  }
-  #profile img {
-    width: 60%;
+  .col-s-1 {
+    width: 8.33%;
   }
 
-  #projects .project-text {
-    font-size: 1.3em;
+  .col-s-2 {
+    width: 16.66%;
   }
-  #projects .image-container ul {
+
+  .col-s-3 {
+    width: 25%;
+  }
+
+  .col-s-4 {
+    width: 33.33%;
+  }
+
+  .col-s-5 {
+    width: 41.66%;
+  }
+
+  .col-s-6 {
+    width: 50%;
+  }
+
+  .col-s-7 {
+    width: 58.33%;
+  }
+
+  .col-s-8 {
+    width: 66.66%;
+  }
+
+  .col-s-9 {
+    width: 75%;
+  }
+
+  .col-s-10 {
+    width: 83.33%;
+  }
+
+  .col-s-11 {
+    width: 91.66%;
+  }
+
+  .col-s-12 {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  #profile p {
+    font-size: 1.7em;
+  }
+
+  #profile img {
+    width: 40%;
+    margin: 0 30%;
+  }
+
+  .title {
+    font-size: 2.5em;
+  }
+
+  .project-text p {
+    font-size: 1.7em;
+  }
+
+  .image-container ul {
+    display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin: 50px;
   }
-  #projects .image-container img {
-    width: 400px;
-    height: 350px;
+  .image-container img {
     margin-right: 20px;
     margin-bottom: 20px;
   }
-  #projects .image-container h2 {
-    font-size: 30px;
+  .image-container h2 {
+    font-size: 25px;
   }
 
   #accounts {
@@ -190,33 +240,74 @@
 @media only screen and (min-width: 769px) {
   /*anything beyoud 769px*/
   /* For desktop: */
-  .col-img {
-    width: 33%;
+  .col-1 {
+    width: 8.33%;
   }
 
-  .col-text {
+  .col-2 {
+    width: 16.66%;
+  }
+
+  .col-3 {
+    width: 25%;
+  }
+
+  .col-4 {
+    width: 33.33%;
+  }
+
+  .col-5 {
+    width: 41.66%;
+  }
+
+  .col-6 {
     width: 50%;
   }
 
+  .col-7 {
+    width: 58.33%;
+  }
+
+  .col-8 {
+    width: 66.66%;
+  }
+
+  .col-9 {
+    width: 75%;
+  }
+
+  .col-10 {
+    width: 83.33%;
+  }
+
+  .col-11 {
+    width: 91.66%;
+  }
+
+  .col-12 {
+    width: 100%;
+  }
+
   #profile img {
-    width: 70%;
+    width: 50%;
+    margin: 0 15%;
   }
   #profile p {
     font-size: 1.3em;
   }
 
-  #project .project-text {
+  .project-text {
     font-size: 1.3em;
   }
-  #project .image-container h2 {
+
+  .image-container img {
+    width: 350px;
+    height: 300px;
+  }
+  .image-container h2 {
     font-size: 35px;
     justify-content: center;
   }
 }
-@media only screen and (min-width: 1440px) {
-  #profile p {
-    font-size: 1.3vw;
-  }
-}
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=test.css.map */
