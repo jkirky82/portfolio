@@ -63,16 +63,16 @@ body section {
   /*anything beyoud 769px*/
   /* For desktop: */
 }
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 .title {
   margin-top: 60px;
   text-align: center;
   font-size: 30px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 h2 {

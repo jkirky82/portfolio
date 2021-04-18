@@ -1,5 +1,6 @@
 @import "parcials/navbar.scss"; 
 @import "parcials/footer.scss"; 
+@import "parcials/font-styles"; 
 *{
     box-sizing: border-box;
     margin:0;
@@ -35,11 +36,10 @@ input[type=text], select, textarea {
     background-color: #f2f2f2;
     padding: 20px;
   }
+
 .title{
-      text-align: center;
-      margin: 60px;
-      font-size: 30px
-    }
+    @extend %title-style
+}
 .form-text{
     font-size: 20px;
     padding: 0 10px;
