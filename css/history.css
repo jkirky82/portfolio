@@ -74,7 +74,7 @@
 }
 
 .header {
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 10px;
   text-align: center;
   font-size: 40px;
@@ -164,29 +164,18 @@
   .uni h2 {
     font-size: 30px;
   }
-  .uni .accounts {
-    clear: both;
-  }
-  .uni .accounts img {
-    width: 20%;
-  }
-  .uni .accounts p {
-    font-size: 1.6vw;
-    text-align: center;
-  }
-
-  .projects {
+  .uni .projects {
     align-items: center;
   }
-  .projects div {
+  .uni .projects div {
     width: 90%;
     margin-bottom: 50px;
   }
-  .projects p {
+  .uni .projects p {
     width: 80%;
     font-size: 1.9vw;
   }
-  .projects img {
+  .uni .projects img {
     width: 280px;
     height: 200px;
   }

@@ -1,7 +1,7 @@
 .flex-container {
   display: flex;
   justify-content: center;
-  background-color: #4CDEF5;
+  background-color: #A4D555;
   position: fixed;
   top: 0;
   width: 100%;
@@ -15,10 +15,6 @@
 }
 .flex-container a:hover {
   background-color: #A4D555;
-}
-
-body section {
-  margin-top: 60px;
 }
 
 @media only screen and (min-width: 600px) {
@@ -69,9 +65,16 @@ body section {
   padding: 0;
 }
 
-.head {
-  margin-top: 60px;
+.title {
+  margin-top: 80px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 40px;
+  color: #4CDEF5;
+  font-size: 30px;
+  margin-bottom: 0px;
 }
+
 .head h1 {
   text-align: center;
 }
@@ -81,6 +84,14 @@ body section {
 .head p {
   padding-left: 30px;
   font-size: 11px;
+}
+
+.header {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 40px;
+  color: #4CDEF5;
 }
 
 .list {
@@ -93,9 +104,6 @@ body section {
 }
 .list div {
   margin-bottom: 30px;
-}
-.list h2 {
-  font-size: 5vw;
 }
 .list p {
   margin: 10px;
@@ -130,11 +138,10 @@ body section {
   .list ol {
     list-style-position: unset;
   }
-  .list h2 {
-    font-size: 5vw;
-  }
   .list p {
+    font-size: 1.4em;
     margin: 10px;
+    padding: 0px 40px;
   }
   .list ::marker {
     font-size: 1.4em;
