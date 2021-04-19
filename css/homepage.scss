@@ -71,6 +71,9 @@ body{
 #accounts{
    @include flexbox(row);
    justify-content: center;
+   h3{
+       color: $font-color;
+   }
 }
 
 .blog-container{
