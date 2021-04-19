@@ -12,7 +12,8 @@
     margin-top: 20px;
     text-align: left;
     font-size: 16px;
-    background: linear-gradient(to right, $primary-color 70%, $secondary-color 30%);
+    color: white;
+    background: $background-break;
     
 }
 @media only screen and (min-width: 600px) {

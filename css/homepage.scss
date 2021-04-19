@@ -12,7 +12,9 @@
     flex-direction: $direction;
     align-items: center;
 }
-
+body{
+    background-color: $background-color;
+}
 /* Used styleing from _font-styles*/
 .title{
     @include title-style;
@@ -25,7 +27,6 @@
     @include flexbox(row);
     flex-wrap: wrap;
     justify-content:space-evenly;
-    border: 3px solid #73AD21
 }
 
 #profile{
@@ -34,10 +35,11 @@
     text-align: center;
     font-size: 16px;
     line-height: 1.7;
+    color: $font-color;
     }
     img{
         text-align:center;
-        width:70%;
+        width:50%;
         display:block;
         margin:auto;
     } 
@@ -45,10 +47,12 @@
 
 #projects{
     text-align: center;
+    background-color: $background-break;
     .project-text{
         margin: 20px;
         font-size: 16px;
         line-height: 1.7;
+        color: $font-color;
     }
     .image-container{
         ul{
@@ -71,6 +75,7 @@
 .blog-container{
     @include flexbox(column);
     margin: 0 10px;
+    background: linear-gradient(to bottom, $background-break 60%, $background-color 50%);
     li{
         @include flexbox(row);
         list-style-type: none;
@@ -83,6 +88,7 @@
         }
         p{
             padding: 0px 5px;
+            color: $font-color;
         }
     }
 }
@@ -105,7 +111,6 @@
         }
     }
       #projects{
-
         .project-text{
                 
             font-size: 1.3em;
@@ -126,6 +131,9 @@
             }
             h2{
                 font-size: 30px;
+            }
+            .gameoflife, .website{
+                width: auto;
             }
         }
       }
@@ -166,23 +174,17 @@
     @media only screen and (min-width: 769px) {
     /*anything beyoud 769px*/
       /* For desktop: */
-      .col-img{
-          width: 33%;
-      }
+      .col-img{width: 33%;}
       .col-text {width: 50%;}
 
         #profile {
-            img{
-                width: 70%;
-            }
-            p{
-                font-size: 1.3em;
-            }
+            img{width: 70%;}
+            p{font-size: 1.3em;}
         }   
 
-
-
-        #project{
+        #project{ 
+            color: $background-break;
+            background-color: #6b6e70;
             .project-text{
                 font-size: 1.3em;
             }
