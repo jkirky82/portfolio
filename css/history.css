@@ -100,7 +100,6 @@ body p {
 }
 
 .languages {
-  background-color: #6b6e70;
   text-align: center;
 }
 .languages p {
@@ -122,7 +121,6 @@ body p {
 }
 
 #gameoflife {
-  background-color: #6b6e70;
   width: 100%;
 }
 
@@ -190,7 +188,7 @@ body p {
     margin-bottom: 50px;
   }
   .uni .projects p {
-    width: 80%;
+    width: 50%;
     font-size: 1.9vw;
   }
   .uni .projects img {
