@@ -1,0 +1,282 @@
+.flex-container {
+  display: flex;
+  justify-content: center;
+  background-color: #6b6e70;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.flex-container a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.flex-container a:hover {
+  background-color: #86c232;
+}
+
+@media only screen and (min-width: 600px) {
+  /*larger than 601px - 768px*/
+  /* For tablets: */
+  .flex-container p {
+    font-size: 22px;
+  }
+}
+@media only screen and (min-width: 769px) {
+  /*anything beyoud 769px*/
+  /* For desktop: */
+  .flex-container p {
+    padding-right: 20px;
+    font-size: 30px;
+  }
+}
+#copyright {
+  font-size: 10px;
+  padding-top: 20px;
+  text-align: left;
+}
+
+.contact {
+  padding-left: 10px;
+  padding-top: 20px;
+  height: 150px;
+  margin-top: 20px;
+  text-align: left;
+  font-size: 16px;
+  color: white;
+  background: #6b6e70;
+}
+
+@media only screen and (min-width: 600px) {
+  /*larger than 601px - 768px*/
+  /* For tablets: */
+  .links {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 769px) {
+  /*anything beyoud 769px*/
+  /* For desktop: */
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Sets a flex box direction is set on include */
+body {
+  font-family: "Barlow", sans-serif;
+  background-color: #222629;
+}
+
+/* Used styleing from _font-styles*/
+.title {
+  margin-top: 80px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 40px;
+  color: #86c232;
+  font-family: "Barlow", sans-serif;
+}
+
+.header {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 40px;
+  color: #86c232;
+  font-family: "Barlow", sans-serif;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#profile p {
+  margin: 10px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.7;
+  color: white;
+}
+#profile img {
+  text-align: center;
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+
+#projects {
+  text-align: center;
+  background-color: #6b6e70;
+}
+#projects .project-text {
+  margin: 20px;
+  font-size: 16px;
+  line-height: 1.7;
+  color: white;
+}
+#projects .image-container ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+#projects .image-container img {
+  width: 200px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+#accounts {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#accounts h3 {
+  color: white;
+}
+
+.blog-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+  background: linear-gradient(to bottom, #6b6e70 60%, #222629 50%);
+}
+.blog-container li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+  border: 3px solid #73AD21;
+  align-items: center;
+  margin: 10px 0px;
+}
+.blog-container li img {
+  width: 100px;
+  height: 100px;
+}
+.blog-container li p {
+  padding: 0px 5px;
+  color: white;
+}
+
+[class*=col-] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /*larger than 601px - 768px*/
+  /* For tablets: */
+  #profile .col-img {
+    width: 30%;
+  }
+  #profile .col-text {
+    width: 60%;
+  }
+  #profile img {
+    width: 60%;
+  }
+
+  #projects .project-text {
+    font-size: 1.3em;
+  }
+  #projects .image-container ul {
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 50px;
+  }
+  #projects .image-container img {
+    width: 400px;
+    height: 350px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  #projects .image-container h2 {
+    font-size: 30px;
+  }
+  #projects .image-container .gameoflife, #projects .image-container .website {
+    width: auto;
+  }
+
+  #accounts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  #accounts .github {
+    padding: 50px;
+  }
+  #accounts .LinkedIn {
+    padding: 50px;
+  }
+  #accounts img {
+    width: 150px;
+    height: 150px;
+  }
+  #accounts h3 {
+    font-size: 1.7em;
+  }
+}
+.blog-container {
+  flex-wrap: wrap;
+  white-space: nowrap;
+  margin: 0px;
+  white-space: nowrap;
+}
+.blog-container li {
+  white-space: nowrap;
+  flex-direction: column;
+}
+.blog-container p {
+  display: inline;
+}
+
+@media only screen and (min-width: 769px) {
+  /*anything beyoud 769px*/
+  /* For desktop: */
+  .col-img {
+    width: 33%;
+  }
+
+  .col-text {
+    width: 50%;
+  }
+
+  #profile img {
+    width: 70%;
+  }
+  #profile p {
+    font-size: 1.3em;
+  }
+
+  #project {
+    color: #6b6e70;
+    background-color: #6b6e70;
+  }
+  #project .project-text {
+    font-size: 1.3em;
+  }
+  #project .image-container h2 {
+    font-size: 35px;
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  #profile p {
+    font-size: 1.3vw;
+  }
+}
+
+/*# sourceMappingURL=homepage.css.map */
