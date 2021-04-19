@@ -115,6 +115,7 @@ input[type=submit]:hover {
 }
 
 .form-text {
+  margin-bottom: 10px;
   text-align: center;
   font-size: 16px;
   padding: 0 10px;

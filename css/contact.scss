@@ -48,6 +48,7 @@ input[type=text], select, textarea {
     @include title-style;
 }
 .form-text{
+    margin-bottom: 10px;
     text-align: center;
     font-size: 16px;
     padding: 0 10px;
