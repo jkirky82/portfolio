@@ -45,7 +45,7 @@
   margin-top: 20px;
   text-align: left;
   font-size: 16px;
-  color: #222629;
+  color: white;
   background: #6b6e70;
 }
 
@@ -66,12 +66,22 @@
   padding: 0;
 }
 
+body {
+  font-family: "Barlow", sans-serif;
+  background-color: #222629;
+}
+body p {
+  font-family: "Barlow", sans-serif;
+  color: white;
+}
+
 .title {
   margin-top: 80px;
   margin-bottom: 10px;
   text-align: center;
   font-size: 40px;
   color: #86c232;
+  font-family: "Barlow", sans-serif;
 }
 
 .header {
@@ -80,6 +90,7 @@
   text-align: center;
   font-size: 40px;
   color: #86c232;
+  font-family: "Barlow", sans-serif;
 }
 
 .uni {
@@ -89,6 +100,7 @@
 }
 
 .languages {
+  background-color: #6b6e70;
   text-align: center;
 }
 .languages p {
@@ -107,6 +119,11 @@
 }
 .languages-container .html img {
   width: 70px;
+}
+
+#gameoflife {
+  background-color: #6b6e70;
+  width: 100%;
 }
 
 .projects {

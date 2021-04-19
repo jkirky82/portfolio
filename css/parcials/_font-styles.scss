@@ -6,6 +6,7 @@
     text-align: center;
     font-size: 40px;
     color: $secondary-color;
+    font-family: 'Barlow', sans-serif;  
 }
 @mixin header{
     margin-top: 30px;
@@ -13,4 +14,5 @@
     text-align: center;
     font-size: 40px;
     color: $secondary-color;
+    font-family: 'Barlow', sans-serif;  
 }

@@ -6,7 +6,13 @@
     margin:0;
     padding: 0;
 }
-
+body{
+  background-color: $background-color;
+  font-family: 'Barlow', sans-serif;  
+  p{
+    color: white;
+  }
+}
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -33,12 +39,13 @@ input[type=text], select, textarea {
   
   .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: $background-break;
     padding: 20px;
+    color: white;
   }
 
 .title{
-    @extend %title-style
+    @include title-style;
 }
 .form-text{
     font-size: 20px;

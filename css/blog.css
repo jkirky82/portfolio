@@ -1,7 +1,7 @@
 .flex-container {
   display: flex;
   justify-content: center;
-  background-color: #A4D555;
+  background-color: #6b6e70;
   position: fixed;
   top: 0;
   width: 100%;
@@ -14,7 +14,7 @@
   text-decoration: none;
 }
 .flex-container a:hover {
-  background-color: #A4D555;
+  background-color: #86c232;
 }
 
 @media only screen and (min-width: 600px) {
@@ -45,7 +45,8 @@
   margin-top: 20px;
   text-align: left;
   font-size: 16px;
-  background: linear-gradient(to right, #4CDEF5 70%, #A4D555 30%);
+  color: white;
+  background: #6b6e70;
 }
 
 @media only screen and (min-width: 600px) {
@@ -70,20 +71,22 @@
   margin-bottom: 10px;
   text-align: center;
   font-size: 40px;
-  color: #4CDEF5;
+  color: #86c232;
+  font-family: "Barlow", sans-serif;
   font-size: 30px;
   margin-bottom: 0px;
 }
 
-.head h1 {
-  text-align: center;
+body {
+  font-family: "Barlow", sans-serif;
+  background-color: #222629;
 }
-.head a {
-  text-decoration: none;
+
+.head {
+  color: white;
 }
-.head p {
-  padding-left: 30px;
-  font-size: 11px;
+.head a:active {
+  color: white;
 }
 
 .header {
@@ -91,60 +94,49 @@
   margin-bottom: 10px;
   text-align: center;
   font-size: 40px;
-  color: #4CDEF5;
+  color: #86c232;
+  font-family: "Barlow", sans-serif;
 }
 
 .list {
-  margin: 10px;
-  padding: 0px 20px;
-  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
-.list ol {
-  list-style-position: inside;
+.list ul {
+  list-style-type: none;
 }
 .list div {
-  margin-bottom: 30px;
+  background-color: #6b6e70;
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-width: 1px;
+  color: white;
+  text-align: center;
 }
-.list p {
-  margin: 10px;
-}
-.list ::marker {
-  font-size: 1.4em;
+.list div img {
+  width: 100%;
 }
 
 @media only screen and (min-width: 600px) {
   /*larger than 601px - 768px*/
   /* For tablets: */
-  .head h1 {
-    text-align: center;
-    font-size: 5vw;
-  }
-  .head a {
-    text-decoration: none;
-  }
-  .head p {
-    padding-left: 70px;
-    font-size: 11px;
-  }
-
-  .list {
-    margin: 10px;
-    padding: 0px 90px;
-    text-align: center;
-  }
   .list div {
-    margin-bottom: 30px;
+    border-width: 2px;
+    margin: 10px 0px;
+    justify-content: center;
+    align-items: center;
   }
-  .list ol {
-    list-style-position: unset;
+  .list div p {
+    text-align: center;
   }
-  .list p {
-    font-size: 1.4em;
-    margin: 10px;
-    padding: 0px 40px;
-  }
-  .list ::marker {
-    font-size: 1.4em;
+  .list div img {
+    width: 120px;
+    height: 120px;
   }
 }
 @media only screen and (min-width: 769px) {

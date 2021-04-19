@@ -11,78 +11,68 @@
     font-size:30px;
     margin-bottom: 0px;
 }
+body{
+    font-family: 'Barlow', sans-serif;
+    background-color: $background-color;
+}
+
 .head{
-    h1{
-        text-align: center;
-    }
-    a{
-        text-decoration: none;
-    }
-    p{
-        padding-left:30px;
-        font-size: 11px;
+    color: white;
+    a:active{
+        color: white;
     }
 }
+
 .header{
     @include header;
 }
 .list{
-    margin: 10px;
-    padding: 0px 20px;
-    text-align: center;
-    ol{
-        list-style-position: inside;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    ul{
+        list-style-type: none;
     }
     div{
-        margin-bottom: 30px;
+        background-color: $background-break;
+        display:flex;
+        width: 40%;
+        flex-direction: column;
+        margin-bottom: 20px;
+        border-style: solid;
+        border-width: 1px;
+        color:white;
+        text-align: center;
+        img{
+            width: 100%;
+        }
     }
-    p{
-        margin: 10px;
-    }
-    ::marker {
-        font-size: 1.4em;
-      }
 }
-
-    @media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) {
         /*larger than 601px - 768px*/
         /* For tablets: */
-        .head{
-            h1{
-                text-align: center;
-                font-size: 5vw;
-            }
-            a{
-                text-decoration: none;
-            }
+    .list{
+
+        div{
+
+            border-width: 2px;
+            margin: 10px 0px;
+            justify-content: center;
+            align-items: center;
             p{
-                padding-left:70px;
-                font-size: 11px;
+                text-align: center;
+            }
+            img{
+                width: 120px;
+                height: 120px;
             }
         }
-        .list{
-            margin: 10px;
-            padding: 0px 90px;
-            text-align: center;
-            div{
-                margin-bottom: 30px;
-            }
-            ol{
-                list-style-position:unset;
-            }
-            p{
-                font-size: 1.4em;
-                margin: 10px;
-                padding: 0px 40px;
-            }
-            ::marker {
-                font-size: 1.4em;
-              }
     }
 }
-        @media only screen and (min-width: 769px) {
+
+@media only screen and (min-width: 769px) {
         /*anything beyoud 769px*/
         /* For desktop: */
-
-        }
+}
     
