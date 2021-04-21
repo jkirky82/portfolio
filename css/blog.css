@@ -1,10 +1,13 @@
+/*Creates flax box at the top of the page for nav bar */
 .flex-container {
   display: flex;
   justify-content: center;
   background-color: #6b6e70;
   position: fixed;
+  /* sets the postion of nav bar to always be at top of page */
   top: 0;
   width: 100%;
+  border-bottom: 3px solid;
 }
 .flex-container a {
   display: block;
@@ -14,6 +17,10 @@
   text-decoration: none;
 }
 .flex-container a:hover {
+  background-color: #86c232;
+}
+
+#lightup {
   background-color: #86c232;
 }
 
@@ -81,7 +88,6 @@
   font-size: 40px;
   color: #86c232;
   font-family: "Barlow", sans-serif;
-  margin-bottom: 0px;
 }
 
 body {
@@ -154,6 +160,10 @@ body {
 @media only screen and (min-width: 769px) {
   /*anything beyoud 769px*/
   /* For desktop: */
+  .title {
+    font-size: 5vw;
+  }
+
   .list div {
     border-width: 2px;
     margin: 10px 0px;

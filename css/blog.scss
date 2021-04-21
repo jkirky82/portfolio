@@ -8,7 +8,6 @@
 }
 .title{
     @include title-style;
-    margin-bottom: 0px;
 }
 body{
     font-family: 'Barlow', sans-serif;
@@ -80,6 +79,9 @@ body{
 @media only screen and (min-width: 769px) {
         /*anything beyoud 769px*/
         /* For desktop: */
+        .title{
+            font-size: 5vw;
+        }
         .list{
             div{
                 border-width: 2px;

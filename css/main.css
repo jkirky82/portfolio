@@ -20,19 +20,7 @@
   background-color: #86c232;
 }
 
-.home {
-  background-color: #86c232;
-}
-
-.aboutme {
-  background-color: #86c232;
-}
-
-.blog {
-  background-color: #86c232;
-}
-
-.contact {
+#lightup {
   background-color: #86c232;
 }
 
@@ -196,6 +184,10 @@ body {
 /*larger than 601px - 768px*/
 /* For tablets: */
 @media only screen and (min-width: 600px) {
+  .title {
+    font-size: 5vw;
+  }
+
   #profile .col-img {
     width: 30%;
   }

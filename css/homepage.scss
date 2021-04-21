@@ -100,6 +100,9 @@ body{
 /*larger than 601px - 768px*/
       /* For tablets: */
   @media only screen and (min-width: 600px) {
+    .title{
+        font-size: 5vw;
+    }
     
     #profile{
         .col-img{
