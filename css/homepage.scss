@@ -1,6 +1,8 @@
 @import "parcials/navbar.scss"; 
 @import "parcials/footer.scss"; 
 @import "parcials/font-styles"; 
+@import "parcials/colors";
+
 *{
     box-sizing: border-box;
     margin:0;
@@ -16,6 +18,7 @@ body{
     font-family: 'Barlow', sans-serif;
     background-color: $background-color;
 }
+
 /* Used styleing from _font-styles*/
 .title{
     @include title-style;
@@ -40,9 +43,9 @@ body{
     }
     img{
         text-align:center;
-        width:50%;
         display:block;
         margin:auto;
+        border-radius: 70%;
     } 
 }
 
@@ -71,38 +74,33 @@ body{
 #accounts{
    @include flexbox(row);
    justify-content: center;
+   text-align: center;
+   flex-wrap: wrap;
    h3{
        color: $font-color;
    }
+   img{
+       width: 180px;
+       height: 140px;
+   }
 }
-
-.blog-container{
-    @include flexbox(column);
-    margin: 0 10px;
-    background: linear-gradient(to bottom, $background-break 60%, $background-color 50%);
-    li{
-        @include flexbox(row);
-        list-style-type: none;
-        border: 3px solid #73AD21;
-        align-items: center;
-        margin: 10px 0px;
-        img{
-            width: 100px;
-            height:100px;
-        }
-        p{
-            padding: 0px 5px;
-            color: $font-color;
-        }
-    }
+/* Styles Resume button*/
+.resume{
+    border: none;
+    background-color: $secondary-color;
+    border-radius: 15%;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
-[class*="col-"] {
-    width: 100%;
-  }
-
-  @media only screen and (min-width: 600px) {
-    /*larger than 601px - 768px*/
+/*larger than 601px - 768px*/
       /* For tablets: */
+  @media only screen and (min-width: 600px) {
+    
     #profile{
         .col-img{
             width:30%;
@@ -175,36 +173,37 @@ body{
             display: inline;
         }
     }
-    @media only screen and (min-width: 769px) {
-    /*anything beyoud 769px*/
+/*anything beyoud 769px*/
       /* For desktop: */
-      .col-img{width: 33%;}
-      .col-text {width: 50%;}
+@media only screen and (min-width: 769px) {
+    .col-img{width: 33%;}
+    .col-text {width: 50%;}
 
-        #profile {
-            img{width: 70%;}
-            p{font-size: 1.3em;}
-        }   
+    #profile {
+        img{width: 70%;}
+        p{font-size: 1.3em;}
+    }   
 
-        #project{ 
-            color: $background-break;
-            background-color: #6b6e70;
-            .project-text{
-                font-size: 1.3em;
-            }
-            .image-container{
-                h2{
-                    font-size: 35px;
-                    justify-content: center;
-                }
+    #project{ 
+        color: $background-break;
+        background-color: #6b6e70;
+        .project-text{
+             font-size: 1.3em;
+        }
+        .image-container{
+            h2{
+                 font-size: 35px;
+                justify-content: center;
             }
         }
-        
     }
-    @media only screen and (min-width: 1440px){
-        #profile{
-            p{
-                font-size: 1.3vw
-            }
-        }  
-      }
+        
+}
+/*slight change to anything above 1440px*/
+@media only screen and (min-width: 1440px){
+     #profile{
+        p{
+             font-size: 1.3vw
+         }
+    }  
+}

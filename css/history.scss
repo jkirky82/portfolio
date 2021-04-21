@@ -18,7 +18,6 @@ body{
         font-family: 'Barlow', sans-serif;
         color: $font-color;
     }
-    
 }
 .title{
     @include title-style;
@@ -51,9 +50,6 @@ body{
         }
     }
 }
-#gameoflife{
-    width: 100%;
-}
 .projects{
     @include flexbox(column);
     margin: 0 10px;
@@ -62,7 +58,6 @@ body{
         border-style: solid;
         border-width: 2px;
         margin: 10px 0px;
-        justify-content: center;
         align-items: center;
     }
     img{
@@ -76,7 +71,7 @@ body{
     }
 }
 
-    @media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) {
         /*larger than 601px - 768px*/
         /* For tablets: */
         .title{
@@ -86,6 +81,7 @@ body{
             font-size: 30px;
         }
         .projects{
+
             p{
                 font-size: 20px;
             }
@@ -95,33 +91,44 @@ body{
             }
         }
     }
-        @media only screen and (min-width: 769px) {
-        /*anything beyoud 769px*/
-        /* For desktop: */
-        .title{
-            font-size:5vw;
+
+
+
+@media only screen and (min-width: 769px) {
+    /*anything beyoud 769px*/
+    /* For desktop: */
+    .title{
+        font-size:5vw;
+    }
+    .uni{
+        p{
+            font-size: 1.6vw;    
         }
-        .uni{
-            p{
-                font-size: 1.6vw;    
-            }
         h2{
             font-size: 30px;
         }
-        .projects{
-            align-items: center;
-            div{
-                width:90%;
-                margin-bottom: 50px;
-            }
-            p{
-                width:50%;
-                font-size: 1.9vw
-            }
-            img{
-                width:280px;
-                height:200px;
-            }
+    }
+    .languages{
+        p{
+            font-size: 1.6vw;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .projects{
+        align-items: center;
+        div{
+            width:80%;
+        }
+        p{
+            width:70%;
+            font-size: 1.8vw
+        }
+        img{
+            width:250px;
+            height:200px;
         }
     }
 }

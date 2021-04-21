@@ -1,12 +1,14 @@
 @import"colors.scss";
 
+/*Creates flax box at the top of the page for nav bar */
 .flex-container{
     display: flex;
     justify-content: center;
     background-color: $background-break;
-    position: fixed;
+    position: fixed; /* sets the postion of nav bar to always be at top of page */
     top:0;
     width:100%;
+    border-bottom: 3px solid;
   a{
     display: block;
     color: white;
@@ -16,7 +18,19 @@
   }
   a:hover{
     background-color: $secondary-color;
-  }
+  } 
+}
+.home{
+  background-color: $secondary-color;
+}
+.aboutme{
+  background-color: $secondary-color;
+}
+.blog{
+  background-color: $secondary-color;
+}
+.contact{
+  background-color: $secondary-color;
 }
 
 

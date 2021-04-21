@@ -1,10 +1,13 @@
+/*Creates flax box at the top of the page for nav bar */
 .flex-container {
   display: flex;
   justify-content: center;
   background-color: #6b6e70;
   position: fixed;
+  /* sets the postion of nav bar to always be at top of page */
   top: 0;
   width: 100%;
+  border-bottom: 3px solid;
 }
 .flex-container a {
   display: block;
@@ -14,6 +17,22 @@
   text-decoration: none;
 }
 .flex-container a:hover {
+  background-color: #86c232;
+}
+
+.home {
+  background-color: #86c232;
+}
+
+.aboutme {
+  background-color: #86c232;
+}
+
+.blog {
+  background-color: #86c232;
+}
+
+.contact {
   background-color: #86c232;
 }
 
@@ -116,9 +135,9 @@ body {
 }
 #profile img {
   text-align: center;
-  width: 50%;
   display: block;
   margin: auto;
+  border-radius: 70%;
 }
 
 #projects {
@@ -149,43 +168,34 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
 }
 #accounts h3 {
   color: white;
 }
-
-.blog-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0 10px;
-  background: linear-gradient(to bottom, #6b6e70 60%, #222629 50%);
-}
-.blog-container li {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  list-style-type: none;
-  border: 3px solid #73AD21;
-  align-items: center;
-  margin: 10px 0px;
-}
-.blog-container li img {
-  width: 100px;
-  height: 100px;
-}
-.blog-container li p {
-  padding: 0px 5px;
-  color: white;
+#accounts img {
+  width: 180px;
+  height: 140px;
 }
 
-[class*=col-] {
-  width: 100%;
+/* Styles Resume button*/
+.resume {
+  border: none;
+  background-color: #86c232;
+  border-radius: 15%;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
+/*larger than 601px - 768px*/
+/* For tablets: */
 @media only screen and (min-width: 600px) {
-  /*larger than 601px - 768px*/
-  /* For tablets: */
   #profile .col-img {
     width: 30%;
   }
@@ -251,9 +261,9 @@ body {
   display: inline;
 }
 
+/*anything beyoud 769px*/
+/* For desktop: */
 @media only screen and (min-width: 769px) {
-  /*anything beyoud 769px*/
-  /* For desktop: */
   .col-img {
     width: 33%;
   }
@@ -281,6 +291,7 @@ body {
     justify-content: center;
   }
 }
+/*slight change to anything above 1440px*/
 @media only screen and (min-width: 1440px) {
   #profile p {
     font-size: 1.3vw;
