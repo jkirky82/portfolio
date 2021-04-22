@@ -1,0 +1,439 @@
+commit 4b3546a964d34f04e3a3e4a246babb5be6aa7e40
+Author: jkirky82 <jkirky82@gmail.com>
+Date:   Thu Apr 22 16:20:29 2021 +1000
+
+    updated readme file
+
+commit 564b33e50f3bc35f4575914fd639b31e6850a2e8
+Author: jkirky82 <jkirky82@gmail.com>
+Date:   Thu Apr 22 15:07:07 2021 +1000
+
+    fixed SRI
+
+commit 11c91b9fc5562396e383cbe0859d83275aaee48d
+Author: jkirky82 <jkirky82@gmail.com>
+Date:   Thu Apr 22 14:51:49 2021 +1000
+
+    added SRI to style sheets
+
+commit 57409ea4bb119bd873a9faabb396fd0dfacc1841
+Author: jkirky82 <jkirky82@gmail.com>
+Date:   Thu Apr 22 14:25:56 2021 +1000
+
+    added alt to images and title to pages
+
+commit 95e929e7c8ca6146cbcefb946d2574b2e793cbbb
+Author: Jack Kirkwood <jkirky82@gmail.com>
+Date:   Wed Apr 21 22:04:32 2021 +1000
+
+    added small amounts of styling
+
+commit 5a361b486657eb22e5cd420d19d0652c550d6a0b
+Author: Jack Kirkwood <jkirky82@gmail.com>
+Date:   Wed Apr 21 18:05:56 2021 +1000
+
+    large amount of styling to all pages
+
+commit d60981c0dbb903619e6de11591f1398425d33c3c
+Author: jkirky82 <jkirky82@gmail.com>
+Date:   Wed Apr 21 13:27:48 2021 +1000
+
+    added small css styling
+
+commit 0e42f2c123a404e1e49c6d8eef5244e67a863412
+Author: jkirky82 <jkirky82@gmail.com>
+Date:   Tue Apr 20 08:54:01 2021 +1000
+
+    changed blog design
+
+commit 97bcfef9d866d9d2e5bc506c9f0e4a7d6283b99a
+Author: jkirky82 <jkirky82@gmail.com>
+Date:   Tue Apr 20 08:19:12 2021 +1000
+
+    small design changes to font
+
+commit fab9f0dbbe64a17c90fd29ea4e84d16910a86d0f
+Author: jkirky82 <jkirky82@gmail.com>
+Date:   Tue Apr 20 08:14:38 2021 +1000
+
+    small css changeds
+
+commit 1b2b0460b28969b4744469ef454d7e09d82a741a
+Author: jkirky82 <jkirky82@gmail.com>
+Date:   Tue Apr 20 08:12:19 2021 +1000
+
+    changed small styling
+
+commit b77aaff682e6045ca2c06b2cff1e6b6012e600c3
+Author: jkirky82 <jkirky82@gmail.com>
+Date:   Tue Apr 20 08:10:31 2021 +1000
+
+    changed small styling
+
+commit 9254116c295fdcadd3c979ce040f139f12b10027
+Author: jkirky82 <jkirky82@gmail.com>
+Date:   Tue Apr 20 08:04:50 2021 +1000
+
+    changed small styling
+
+commit 98b9dd1d31ee2dfc858c125e652e6226297a2b50
+Author: jkirky82 <jkirky82@gmail.com>
+Date:   Mon Apr 19 23:04:16 2021 +1000
+
+    changed location of html files
+
+commit 5cc68a9354d18894e68513053aeecf1e17c639f2
+Author: jkirky82 <jkirky82@gmail.com>
+Date:   Mon Apr 19 22:47:00 2021 +1000
+
+    lots of styling changes still needs work
+
+commit 7127c9842f1491cd1d38c3d987e7dfcdb19190e7
+Author: jkirky82 <jkirky82@gmail.com>
+Date:   Mon Apr 19 14:40:53 2021 +1000
+
+    changed color style, want to change it again
+
+commit c375af9e3f3af0781c45b3f0b879102d7bea7ba7
+Merge: 3f6c044 94fd555
+Author: jkirky82 <81193733+jkirky82@users.noreply.github.com>
+Date:   Mon Apr 19 11:35:12 2021 +1000
+
+    Merge pull request #18 from jkirky82/blog
+    
+    styled blog page added blog links on index page
+
+commit 94fd55537964e6e92369615802d6a24ab222b5a8
+Author: jkirky82 <jkirky82@gmail.com>
+Date:   Mon Apr 19 11:34:22 2021 +1000
+
+    styled blog page added blog links on index page
+
+commit 3f6c044353c8dcc27461087d5e159bf8d2fa9057
+Merge: c68779e 6d4ae71
+Author: jkirky82 <81193733+jkirky82@users.noreply.github.com>
+Date:   Sun Apr 18 23:08:06 2021 +1000
+
+    Merge pull request #17 from jkirky82/history
+    
+    added and fixed styling to about me page
+
+commit 6d4ae717d304fcf7efdf35be133776b26a481eba
+Author: Jack Kirkwood <jkirky82@gmail.com>
+Date:   Sun Apr 18 23:07:38 2021 +1000
+
+    added and fixed styling to about me page
+
+commit c68779ead2baefb3eaa4523405601870ba8693af
+Merge: ebfa5aa 4e69bb2
+Author: jkirky82 <81193733+jkirky82@users.noreply.github.com>
+Date:   Sun Apr 18 21:22:29 2021 +1000
+
+    Merge pull request #16 from jkirky82/index
+    
+    styling changes to index page
+
+commit 4e69bb2dac2763a5141ed83f3c630570064a6405
+Author: Jack Kirkwood <jkirky82@gmail.com>
+Date:   Sun Apr 18 21:21:34 2021 +1000
+
+    styling changes to index page
+
+commit ebfa5aa03243472b82763141eb92d4324e130cfc
+Merge: f701c7a 1eebd4d
+Author: jkirky82 <81193733+jkirky82@users.noreply.github.com>
+Date:   Sun Apr 18 19:17:49 2021 +1000
+
+    Merge pull request #15 from jkirky82/font-styles
+    
+    added header font styling and added photos of past projects
+
+commit 1eebd4d94a097cec9a059352d56fb7e6e31a5389
+Author: Jack Kirkwood <jkirky82@gmail.com>
+Date:   Sun Apr 18 19:17:16 2021 +1000
+
+    added header font styling and added photos of past projects
+
+commit f701c7a2929ef179720ae81034d82d3c1168a8fe
+Author: Jack Kirkwood <jkirky82@gmail.com>
+Date:   Sun Apr 18 18:28:41 2021 +1000
+
+    fixed more styling between pages
+
+commit 22e9392106d802603681c14d2e9edb019aa47802
+Merge: f3aa8c7 679516f
+Author: jkirky82 <81193733+jkirky82@users.noreply.github.com>
+Date:   Sun Apr 18 17:11:47 2021 +1000
+
+    Merge pull request #14 from jkirky82/blog
+    
+    added blog html and css, made new folder for images
+
+commit 679516fdd0826ab00a6086ff8523444d344a038f
+Author: Jack Kirkwood <jkirky82@gmail.com>
+Date:   Sun Apr 18 17:10:48 2021 +1000
+
+    added blog html and css, made new folder for images
+
+commit f3aa8c7e99a58dc0831cba209aed85e507af6b30
+Author: Jack Kirkwood <jkirky82@gmail.com>
+Date:   Sun Apr 18 14:45:24 2021 +1000
+
+    fixed styling on pages to match each other
+
+commit 6fc5582fd59eaa166c34b5ba92bca9a2490a8ec3
+Merge: f95a201 03df9cb
+Author: jkirky82 <81193733+jkirky82@users.noreply.github.com>
+Date:   Sun Apr 18 02:33:49 2021 +1000
+
+    Merge pull request #13 from jkirky82/history
+    
+    fixed some styling
+
+commit 03df9cb0963c17c1463d237430f3a534ecefcc7b
+Author: Jack Kirkwood <jkirky82@gmail.com>
+Date:   Sun Apr 18 02:32:27 2021 +1000
+
+    fixed some styling
+
+commit f95a201ce619ce7b4f66e6be46df4d0c05fe251f
+Merge: 28b9cc7 1956699
+Author: jkirky82 <81193733+jkirky82@users.noreply.github.com>
+Date:   Sun Apr 18 02:19:23 2021 +1000
+
+    Merge pull request #12 from jkirky82/history
+    
+    Merge pull request #11 from jkirky82/master
+
+commit 19566990cdb8f2ed878f03fa94413d6d68b205a6
+Merge: 0493edb 28b9cc7
+Author: jkirky82 <81193733+jkirky82@users.noreply.github.com>
+Date:   Sun Apr 18 02:18:07 2021 +1000
+
+    Merge pull request #11 from jkirky82/master
+    
+    merging all changes into history branch
+
+commit 28b9cc7c68980e62b377a9b6af76721ae924629f
+Author: Jack Kirkwood <jkirky82@gmail.com>
+Date:   Sun Apr 18 02:12:41 2021 +1000
+
+    styled contact page and made responsive
+
+commit b3140b5e3f6bb3fe15bde3835854f2a96b3f6e31
+Merge: fe85304 a3e0d62
+Author: jkirky82 <81193733+jkirky82@users.noreply.github.com>
+Date:   Sat Apr 17 18:45:29 2021 +1000
+
+    Merge pull request #10 from jkirky82/navbar
+    
+    added color and moving nav bar
+
+commit a3e0d62f5ef8ef8d4c716b14bbc11b56ddfb3fb2
+Author: Jack Kirkwood <jkirky82@gmail.com>
+Date:   Sat Apr 17 18:24:54 2021 +1000
+
+    added color and moving nav bar
+
+commit fe853049bcab8170726dd5ec6e13f62a9a85fc51
+Merge: 7106d4f 0493edb
+Author: jkirky82 <81193733+jkirky82@users.noreply.github.com>
+Date:   Sat Apr 17 16:25:00 2021 +1000
+
+    Merge pull request #9 from jkirky82/history
+    
+    Footer added color and styling changed
+
+commit 0493edb1afd7828eda282636289e39900c040192
+Merge: 69ee6b3 7106d4f
+Author: jkirky82 <81193733+jkirky82@users.noreply.github.com>
+Date:   Sat Apr 17 16:24:49 2021 +1000
+
+    Merge branch 'master' into history
+
+commit 69ee6b3e61f82393574da7a8cb96bfd1a1af637b
+Author: Jack Kirkwood <jkirky82@gmail.com>
+Date:   Sat Apr 17 16:16:44 2021 +1000
+
+    fixing conflict
+
+commit 96876c7b29b9f537042c19f5adf6132576bb7c69
+Author: Jack Kirkwood <jkirky82@gmail.com>
+Date:   Sat Apr 17 16:12:57 2021 +1000
+
+    conflict changing
+
+commit 8b66710672855298c6259f95c5c2a715d44253e2
+Author: Jack Kirkwood <jkirky82@gmail.com>
+Date:   Sat Apr 17 16:10:57 2021 +1000
+
+    Footer added color and styling changed
+
+commit 7106d4f31748fe22117e2e2bdf1eefbbe5007c07
+Merge: bb9aba2 337123a
+Author: jkirky82 <81193733+jkirky82@users.noreply.github.com>
+Date:   Sat Apr 17 02:00:10 2021 +1000
+
+    Merge pull request #8 from jkirky82/history
+    
+    added responsive design for history page
+
+commit 337123a51e6315fcd165f8a6121e257260a8d217
+Author: Jack Kirkwood <jkirky82@gmail.com>
+Date:   Sat Apr 17 01:17:05 2021 +1000
+
+    added responsive design for history page
+
+commit bb9aba2e8989171b2f6fcc0f9e7da1f479ef31a6
+Merge: 9480aa8 a17b8be
+Author: jkirky82 <81193733+jkirky82@users.noreply.github.com>
+Date:   Thu Apr 15 19:27:31 2021 +1000
+
+    Merge pull request #7 from jkirky82/contact_form
+    
+    made contact form responsive
+
+commit a17b8bec15b8210ae5d27da088d4b9fbd332ccc3
+Author: Jack Kirkwood <jkirky82@gmail.com>
+Date:   Thu Apr 15 19:27:05 2021 +1000
+
+    made contact form responsive
+
+commit 9480aa8b88793c8edf7c082047779317b0a838e6
+Merge: 8380eed 5481e4b
+Author: jkirky82 <81193733+jkirky82@users.noreply.github.com>
+Date:   Thu Apr 15 17:00:46 2021 +1000
+
+    Merge pull request #6 from jkirky82/index
+    
+    Index
+
+commit 5481e4b4aa1ecba97a0e29851e1d7db9b6466ff2
+Author: Jack Kirkwood <jkirky82@gmail.com>
+Date:   Thu Apr 15 16:42:33 2021 +1000
+
+    added css styling to index
+
+commit 00df6ffe1d48edc7a8f9e601408986c0a40688ce
+Author: Jack Kirkwood <jkirky82@gmail.com>
+Date:   Wed Apr 14 14:36:17 2021 +1000
+
+    added a contact form and header and footer to contact page
+
+commit 8380eed251e4c67a1d203b89653e2e5944343f86
+Merge: dd762d4 6174729
+Author: jkirky82 <81193733+jkirky82@users.noreply.github.com>
+Date:   Tue Apr 13 22:56:51 2021 +1000
+
+    Merge pull request #5 from jkirky82/history
+    
+    made the history page need to add css
+
+commit 6174729ee1f6c611ef400dbe75847760b4872797
+Author: Jack Kirkwood <jkirky82@gmail.com>
+Date:   Tue Apr 13 22:38:09 2021 +1000
+
+    made the history page need to add css
+
+commit dd762d47b40e2c2f46fabc13cdc4677e456907a3
+Merge: 791c328 b986915
+Author: jkirky82 <81193733+jkirky82@users.noreply.github.com>
+Date:   Mon Apr 12 16:09:34 2021 +1000
+
+    Merge pull request #4 from jkirky82/footer
+    
+    footer made and css added
+
+commit b986915b88dacac0cf7ad58192f892aaecef94f0
+Author: Jack Kirkwood <jkirky82@gmail.com>
+Date:   Mon Apr 12 16:08:44 2021 +1000
+
+    footer made and css added
+
+commit 791c3282618cfb56e2e628897919c2bfec3464cb
+Author: jkirky82 <jkirky82@gmail.com>
+Date:   Mon Apr 12 09:41:59 2021 +1000
+
+    added project to index
+
+commit 1a79dc254a5717ff9664bca97b493c3701345095
+Merge: d76e498 3212526
+Author: jkirky82 <jkirky82@gmail.com>
+Date:   Mon Apr 12 09:41:05 2021 +1000
+
+    Merge branch 'master' of github.com:jkirky82/portfolio
+
+commit d76e498bb65156d7d565eba60aac0acacd6bc2c4
+Author: jkirky82 <jkirky82@gmail.com>
+Date:   Mon Apr 12 09:39:32 2021 +1000
+
+    created projects on index page
+
+commit 3212526ddb4ba799ed037b6bcf11be4f7c824038
+Author: jkirky82 <81193733+jkirky82@users.noreply.github.com>
+Date:   Sat Apr 10 21:46:57 2021 +1000
+
+    Delete aboutme.html
+
+commit c49ccfc588c168684c5cf5cb13af61da5d37caee
+Merge: 1875c9b 02369fc
+Author: jkirky82 <81193733+jkirky82@users.noreply.github.com>
+Date:   Sat Apr 10 21:43:55 2021 +1000
+
+    Merge pull request #3 from jkirky82/profile
+    
+    created the profile on the index page and included some css
+
+commit 02369fc8da888991bb001adf6550250776361374
+Author: jkirky82 <jkirky82@gmail.com>
+Date:   Sat Apr 10 21:41:39 2021 +1000
+
+    created the profile on the index page and included some css
+
+commit 1875c9b2349ce22c6c4acdb637bf65bfdab8e8d2
+Merge: 9a613a8 aa4216e
+Author: jkirky82 <81193733+jkirky82@users.noreply.github.com>
+Date:   Fri Apr 9 18:39:15 2021 +1000
+
+    Merge pull request #2 from jkirky82/navbar
+    
+    changed homepage name to index
+
+commit aa4216e2d41f07c3c7bc90ab12e6a869dd14686d
+Author: jkirky82 <jkirky82@gmail.com>
+Date:   Fri Apr 9 18:36:08 2021 +1000
+
+    changed homepage name to index
+
+commit 9a613a840f80d41f38a146a80dcdf6bf6acdb043
+Merge: e3a4732 6789741
+Author: jkirky82 <81193733+jkirky82@users.noreply.github.com>
+Date:   Fri Apr 9 18:35:09 2021 +1000
+
+    Merge pull request #1 from jkirky82/navbar
+    
+    changed homepage name to index. updated navbar for mobile
+
+commit 678974139c150ba41e4994a77a7b5b6d51e38d93
+Author: jkirky82 <jkirky82@gmail.com>
+Date:   Fri Apr 9 18:33:53 2021 +1000
+
+    changed homepage name to index. updated navbar for mobile
+
+commit e3a4732f3c9149e166ddadaafb00a65b1df237f3
+Author: jkirky82 <jkirky82@gmail.com>
+Date:   Fri Apr 9 14:44:35 2021 +1000
+
+    testing
+
+commit 926b474eb73376410e19adbb6238d3e34df089d8
+Author: jkirky82 <jkirky82@gmail.com>
+Date:   Wed Apr 7 22:16:32 2021 +1000
+
+    created navbar
+
+commit b8a021dc79c2bd46d4c8a841d70b4defae249eea
+Author: jkirky82 <jkirky82@gmail.com>
+Date:   Wed Apr 7 14:50:33 2021 +1000
+
+    first commit
