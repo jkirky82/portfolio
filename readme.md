@@ -12,6 +12,9 @@ This website won't just be made and then forget about it, it will be a website t
 
 ## Features
 
+The website links all the pages together with a top nav bar. The current page will be highlighted on the nav bar.
+
+
 ## Sitemap
 
 '''
