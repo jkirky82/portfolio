@@ -13,50 +13,24 @@ This website won't just be made and then forget about it, it will be a website t
 ## Features
 
 The website links all the pages together with a top nav bar. The current page will be highlighted on the nav bar.
+Everypage has a footer that has my contact details and a link to the contact me page.
+A resume button is added on the home page that will take you to my resume when clicked.
 
 ## Sitemap
 
-'''
-    <?xml version="1.0" encoding="UTF-8"?>
-    <urlset
-        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-                http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-    <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-    <url>
-    <loc>https://stoic-perlman-4066d9.netlify.app/</loc>
-    <lastmod>2021-04-19T23:26:33+00:00</lastmod>
-    <priority>1.00</priority>
-    </url>
-    <url>
-    <loc>https://stoic-perlman-4066d9.netlify.app/index.html</loc>
-    <lastmod>2021-04-19T23:26:33+00:00</lastmod>
-    <priority>0.80</priority>
-    </url>
-    <url>
-    <loc>https://stoic-perlman-4066d9.netlify.app/about%20me.html</loc>
-    <lastmod>2021-04-19T23:26:33+00:00</lastmod>
-    <priority>0.80</priority>
-    </url>
-    <url>
-    <loc>https://stoic-perlman-4066d9.netlify.app/blog.html</loc>
-    <lastmod>2021-04-19T23:26:33+00:00</lastmod>
-    <priority>0.80</priority>
-    </url>
-    <url>
-    <loc>https://stoic-perlman-4066d9.netlify.app/contact.html</loc>
-    <lastmod>2021-04-19T23:26:33+00:00</lastmod>
-    <priority>0.80</priority>
-    </url>
-'''
+![my screenshot](readme-screenshots/Sitemap.png)
 
 ## Screenshots
 
+![my screenshot](readme-screenshots/navbar.PNG)
+
+![my screenshot](readme-screenshots/contact-form.PNG)
+
+![my screenshot](readme-screenshots/index-finshed.PNG)
+
 ## Target Audience
 
-The target audiance is later employers.
+The target audiances is employers who are looking for a developer.
 
 ## Tech Stack
 
